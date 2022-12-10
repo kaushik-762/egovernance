@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#mainimg {
+    padding: 10px;
+    background-color: rgb(248, 197, 115);
+    border-radius: 50%;
+    height: 110px;
+    width: 120px
+}
+
+#magnify {
+    padding: 0px;
+    height: 19.5px;
+    width: 25px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: relative;
+    right: 17px;
+    top: 5.73px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+#box2 {
+
+    font-size: 50px;
+    color: saddlebrown;
+    margin: 10px;
+}
+
+#box2_1 {
+    font-size: 20px;
+    color: saddlebrown;
+    font-style: italic;
+
+}
+
+.navbar1 {
+
+    position: sticky;
+    margin: 10px 10px;
+    font-style: italic;
+    background-color: peru;
+    border-radius: 30px;
+    /*overflow:hidden;*/
+    padding: 15px 20px;
+
+
+
+}
+
+
+.navbar1 a {
+    text-decoration: none;
+    color: aliceblue;
+    margin: 13px 10px;
+    padding: 3px 3px;
+
+}
+
+.navbar1 a:hover,.navbar1 li a.active {
+    color: sienna
+}
+
+.search1 {
+    position: relative;
+    left: 450px;
+    bottom: 2px;
+
+}
+
+#search1_1 {
+    /* padding: 12px ; */
+    /* height: 20px*/
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: solid white;
+    ;
+}
+
+.navbar1 ul {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 15px;
+    list-style: none;
+    overflow: auto;
+    /* flex-flow: column wrap; */
+    /*FLEX PROPERTIES */
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    /*flex-direction: row-reverse {ulte taraf se} */
+    /*  justify-content: center; {horizontally centre}
+        justify-content: space-between
+        justify-content: space-around
+        justify-content: space-evenly
+    */
+
+    /*  align-items:center; {vertically center}
+        align-items:flex-start; {top}
+        align-items:flex-end; {bottom}
+        align-items:stretch; {adjust spaces evenly between vertical items}
+    */
+    /*  flex-grow:3;
+        flex-shrink:2;
+    */
+
+    /* position: absolute;
+    top: 40px; */
+}
+
+.navbar1 ul li {
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+
+.navbar1 ul ul {
+
+    display: none;
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    padding: 5px;
+}
+
+.navbar1 ul li:hover>ul {
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: tan;
+    /* position:relative; */
+    top: 35px;
+}
+
+
+body {
+    background-color:whitesmoke;
+    /* background-image: url("/Cover_Photo_\(2\).png.jpeg");
+    background-repeat: no-repeat;
+    background-size:cover; */
+   
+}
