@@ -22,6 +22,11 @@
     right: 17px;
     top: 5.73px;
 }
+#map1{
+    padding:10px;
+    height:450px;
+    border-radius: 40px;
+}
 
 .box {
     display: flex;
